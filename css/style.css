@@ -13,7 +13,7 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 1px solid rgb(92, 189, 219);
   width: 281px;
   border-radius: 5px;
   margin: auto;
@@ -23,7 +23,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
@@ -34,15 +34,22 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 .single-product {
   padding: 10px;
   transition: 0.6s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 4px 5px rgb(144, 153, 153);
   border-radius: 10px;
-  border: 1px solid cyan;
+}
+.product {
+  background-color: rgb(104, 204, 204);
+  box-shadow: 4px 4px 5px rgb(104, 204, 204);
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
 }
 .product-image {
   width: 150px;
@@ -52,10 +59,11 @@ body {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
-  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgb(54, 53, 53);
+  border-radius: 10px;
   margin-right: 30px;
   position: fixed;
+  background-color: rgba(0, 255, 255, 0.589);
 }
 .cart-main {
   padding-right: 30px;
