@@ -225,7 +225,6 @@ const showProducts = (products) => {
       <h3>${product.title.slice(0, 10)}</h3>
       <p>Category: ${product.category}</p>
       <h2>Price: $ ${product.price}</h2>
-      
       <div class="rating-area">
       <p>Total Ratings: <span>${product.rating.count}</span></p>
       <p>Average Ratings: <span>${product.rating.rate}</span></p>

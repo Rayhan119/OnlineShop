@@ -13,26 +13,31 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(92, 189, 219);
-  width: 281px;
-  border-radius: 5px;
+  border: 1px solid #889eaf;
+  width: 320px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 30px;
   border-right: none;
 }
+#input-field {
+  color: #2f2f2f;
+}
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 25px;
+  padding: 10px 20px;
+  border-radius: 0px 25px 25px 0px;
+  margin-left: 20px;
+  border: 1px;
+  background: rgb(7 74 74);
+  transition: 0.5s;
 }
-
-#search-btn {
-  background-color: #6a36e7;
-  border: 1px solid #6a36e7;
-}
-#search-btn:hover {
+.search-button:hover {
   background-color: white;
-  color: #6a36e7;
+  color: black;
   border: 1px solid black;
 }
 /* cart button style */
