@@ -25,8 +25,19 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+
+#search-btn {
+  background-color: #6a36e7;
+  border: 1px solid #6a36e7;
+}
+#search-btn:hover {
+  background-color: white;
+  color: #6a36e7;
+  border: 1px solid black;
+}
 /* cart button style */
-#addToCart-btn {
+#addToCart-btn,
+#buy-now {
   background-color: #6a36e7;
   text-transform: capitalize;
   border: none;
@@ -47,12 +58,15 @@ body {
   transition: 0.6s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 5px rgb(144, 153, 153);
+  box-shadow: 4px 4px 10px gray;
   border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
 }
 .product {
-  background-color: rgb(104, 204, 204);
-  box-shadow: 4px 4px 5px rgb(104, 204, 204);
+  background-color: rgb(7 74 74);
+  box-shadow: 4px 4px 4px rgb(7 74 74);
   border-radius: 10px;
   color: white;
   margin: 10px;
@@ -65,11 +79,11 @@ body {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px rgb(54, 53, 53);
+  box-shadow: 4px 4px 10px rgb(39 36 36);
   border-radius: 10px;
   margin-right: 30px;
   position: fixed;
-  background-color: rgba(0, 255, 255, 0.589);
+  background-color: white;
 }
 .cart-main {
   padding-right: 30px;
