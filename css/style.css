@@ -25,6 +25,12 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+/* cart button style */
+#addToCart-btn {
+  background-color: #6a36e7;
+  text-transform: capitalize;
+  border: none;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
